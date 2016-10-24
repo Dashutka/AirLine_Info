@@ -16,6 +16,7 @@ namespace AirLine_Model
             Flights.Add(flight);
         }
 
+
         public List<Flight> DisplayFlights() // не должно быть аргумента - display all
         {
             return Flights;

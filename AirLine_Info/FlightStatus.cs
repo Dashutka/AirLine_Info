@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AirLine_Info
+namespace AirLine_Model
 {
     public enum FlightStatus
     {

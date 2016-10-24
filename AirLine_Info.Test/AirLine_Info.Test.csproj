@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AirLine_Info\AirLine_Info.csproj">
+    <ProjectReference Include="..\AirLine_Info\AirLine_Model.csproj">
       <Project>{a4f1747d-fd27-4548-954e-dc121836dd46}</Project>
-      <Name>AirLine_Info</Name>
+      <Name>AirLine_Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

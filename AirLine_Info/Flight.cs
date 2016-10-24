@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AirLine_Info
+namespace AirLine_Model
 {
     public enum FlightCondition
     {
@@ -21,7 +21,7 @@ namespace AirLine_Info
         public int Terminal;
         public string Gate;
         public FlightStatus FlightStatus;
-        // public List<Passenger> passengers = new List<Passenger>();
+        public List<Passenger> passengers = new List<Passenger>();
 
         public Flight() // random add
         {
@@ -44,12 +44,11 @@ namespace AirLine_Info
             this.FlightStatus = (FlightStatus)r.Next(0, 8);
         }
 
-        public Flight(string flightNumber, string city)
+        public Flight(string flightNumber, string city, string firstName, string lastName)
         {
             FlightNumber = flightNumber;
             City = city;
         }
-
     }
 
     //public override string ToString()

@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using View;
 using Presenter;
-using AirLine_Info;
+using AirLine_Model;
 
 namespace ConsoleMainRun
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -18,6 +18,7 @@ namespace ConsoleMainRun
             IAiroport airport = new Airport();
             PresenterClass presenter = new PresenterClass(view, airport);
 
+            view.SetSettingsForDisplay();
             view.AddFlight();
             view.DisplayFlight();
 

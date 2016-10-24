@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using View;
-using AirLine_Info;
+using AirLine_Model;
 
 namespace Presenter
 {

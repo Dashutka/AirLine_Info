@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AirLine_Info\AirLine_Info.csproj">
+    <ProjectReference Include="..\AirLine_Info\AirLine_Model.csproj">
       <Project>{a4f1747d-fd27-4548-954e-dc121836dd46}</Project>
-      <Name>AirLine_Info</Name>
+      <Name>AirLine_Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\Presenter\Presenter.csproj">
       <Project>{269de06e-3cb6-471d-b7dd-d528b114fb14}</Project>

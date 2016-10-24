@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AirLine_Info
+namespace AirLine_Model
 {
     class AirportGenerator
     {

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirLine_Info", "AirLine_Info\AirLine_Info.csproj", "{A4F1747D-FD27-4548-954E-DC121836DD46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirLine_Model", "AirLine_Info\AirLine_Model.csproj", "{A4F1747D-FD27-4548-954E-DC121836DD46}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirLine_Info.Test", "AirLine_Info.Test\AirLine_Info.Test.csproj", "{EAD61068-7AD6-40DF-AC1E-D0B705BAA0C1}"
 EndProject

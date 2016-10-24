@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AirLine_Info
+namespace AirLine_Model
 {
 
     public class Passenger : Human
     {
 
-        object Passport;
+       // object Passport;
 
         public Passenger()
         {
@@ -22,6 +22,6 @@ namespace AirLine_Info
             this.LastName = _lastName[r.Next(0, _lastName.Length - 1)]; ;
             this.DateOfBirthday = _dayOfBirth.AddDays(r.Next(-10000, 0));
             this.Sex = (Sex)r.Next(0, 1);
-        }
+        }        
     }
 }
